@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact North Star Bakery about pre-orders, questions, and pickup dates.">
+  <title>North Star Bakery | Contact</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="North Star Bakery home"><span class="brand-mark" aria-hidden="true">✦</span><span class="brand-name">North Star Bakery</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button><nav class="site-nav" id="site-navigation" aria-label="Primary navigation"><ul><li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav></div></header>
+  <main>
+    <section class="page-intro"><div class="container"><p class="eyebrow">Let’s make a plan</p><h1>Tell us what<br>you’re craving.</h1><p class="lede">Ask a question, start a pre-order, or let us know what you need for your next gathering.</p></div></section>
+    <section class="section"><div class="container contact-layout"><div class="form-panel"><form id="contact-form"><fieldset><legend>Bakery inquiry or pre-order</legend><div class="form-grid"><div class="form-field"><label for="name">Name</label><input type="text" id="name" name="name" required></div><div class="form-field"><label for="email">Email</label><input type="email" id="email" name="email" required></div><div class="form-field"><label for="pickup-date">Pickup date</label><input type="date" id="pickup-date" name="pickup-date" required></div><div class="form-field"><label for="request-type">Request type</label><select id="request-type" name="request-type" required><option value="">Please choose one</option><option value="pre-order">Pre-order</option><option value="general-question">General question</option></select></div><div class="form-field full"><label for="item-details">Item details</label><textarea id="item-details" name="item-details" required></textarea></div><div class="form-field full"><label for="allergy-notes">Allergy notes <span>(optional)</span></label><textarea id="allergy-notes" name="allergy-notes"></textarea></div></div><button class="button" type="submit">Send request</button><p class="form-status" role="status" aria-live="polite"></p></fieldset></form></div><aside><div class="info-block"><p class="eyebrow">Find us</p><h2>Come by the bakehouse.</h2><p>123 Main Street<br>Your Town</p></div><div class="info-block"><p class="eyebrow">Hours</p><p>Monday–Saturday<br>7:00 a.m.–6:00 p.m.</p><p>Sunday<br>Closed</p></div><div class="info-block"><p class="eyebrow">Good to know</p><p>For larger orders, please reach out at least 48 hours ahead so we can give your bake the attention it deserves.</p></div></aside></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>&copy; 2026 North Star Bakery</p><span class="footer-star">Find your north.</span></div></footer>
+</body>
+</html>

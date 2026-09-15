@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="North Star Bakery makes handmade breads, pastries, and cakes for the local community.">
+  <title>North Star Bakery | Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="North Star Bakery home">
+        <span class="brand-mark" aria-hidden="true">✦</span><span class="brand-name">North Star Bakery</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Baked beneath the morning star</p>
+          <h1>Good bread makes a good day.</h1>
+          <p class="lede">Small-batch breads, buttery pastries, and celebration cakes made by hand in the heart of Your Town.</p>
+          <a class="button" href="products.html">Explore the bakehouse</a>
+          <a class="button secondary" href="contact.html">Plan a pickup</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=85" alt="Fresh crusty loaves cooling on a bakery table">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="known-for-heading">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">Our daily ritual</p><h2 id="known-for-heading">What we are known for</h2></div>
+          <p>Thoughtful ingredients, patient fermentation, and the kind of warmth you can taste in every bite.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><h3>Handmade breads</h3><p>Slow-fermented loaves with crackling crusts and tender, flavorful centers.</p></article>
+          <article class="feature-card"><h3>Morning pastries</h3><p>Golden croissants, seasonal danishes, and treats worth setting an alarm for.</p></article>
+          <article class="feature-card"><h3>Celebration cakes</h3><p>Beautiful cakes for the big milestones, little victories, and everything between.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container split">
+        <div class="split-image"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1000&q=85" alt="Baker shaping dough on a wooden work surface"></div>
+        <div><p class="eyebrow">A neighborhood bakery</p><p class="quote">“We bake for the people who make this place feel like home.”</p><p class="lede">Find us at 123 Main Street, Your Town. We are open Monday through Saturday, 7:00 a.m. to 6:00 p.m.</p><a class="button" href="about.html">Meet the bakers</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><p>&copy; 2026 North Star Bakery</p><span class="footer-star">Find your north.</span></div></footer>
+</body>
+</html>
